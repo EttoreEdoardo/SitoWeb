@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+[class*="col-"] {
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="col-s-"] {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For tablets: */
+    [class*="col-t-"] {
+      width: 100%;
+    }
+  }
+
+
+@media only screen and (min-width: 500px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+  }
+.box li {
+  font-family: "Roboto", "Oswald";
+  padding: 8px;
+  margin-bottom: 7px;
+  margin-right: 5px;
+  background-color :#E01483;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.box li:hover {
+    background-color: #c5003d;
+}
+
+.box-l {
+  font-size: 35px;
+  font-family: Oswald-Bold;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 40rem;
+  height: 169px;
+  background-color :#E01483;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border: 0;
+  margin-top: 10px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  font-family: Oswald-Bold;
+  background-color: #8d8d8d;
+  overflow: hidden;
+  z-index: 1000;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: Oswald-Bold;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #E01483;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #E01483;
+  color: white;
+}
+
+.l-storia {
+  font-family: Oswald-Bold;
+  color: #00adef;
+  text-decoration: none;
+  background-color: transparent;
+}

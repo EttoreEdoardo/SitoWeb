@@ -70,7 +70,7 @@
 .box li {
   font-family: "Roboto", "Oswald";
   padding: 8px;
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   margin-right: 5px;
   background-color :#E01483;
   color: #ffffff;
@@ -91,7 +91,10 @@
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border: 0;
-  margin-top: 50px;
+  margin-top: 40px;
+  height: 189px;
+  text-align: left;
+  padding-top: 20px;
 }
 
 /* Add a black background color to the top navigation */
@@ -149,7 +152,79 @@
   text-align:left;
 }
 
+.text-u {
+  font-family: Oswald-Bold;
+  color: #C4C4C4;
+}
+
 #history {
   padding-left: 1rem;
   font-family: Oswald-Bold;
+}
+
+.ombra {
+  box-shadow: 10px 10px 5px grey;
+}
+
+.contenuto-centrato {
+  text-align: center;
+}
+.img-centrata {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#traduttore {
+  height: 45px;
+  background-color: lightgrey;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border: 0;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+td, th {
+  border:1px solid #ddd;
+  padding:8px;
+  width: 100px;
+  height: 100px;
+}
+
+.tabella-centrata {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.targets {
+  color: #6c757d;
+  margin: 0px;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.dieci {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.t {
+  border-style: solid;
+  border: 1px;
+  border-color: lightgray;
+}
+
+.i {
+  border: 1px;
+  background-color: lightgrey;
+}
+
+.ti {
+  margin: 0;
+  border: 0;
+  padding: 5px;
 }

@@ -18,26 +18,7 @@
     .col-12 {width: 100%;}
   }
 
-[class*="col-"] {
-    float: left;
-}
-
-@media only screen and (max-width: 600px) {
-    /* For mobile phones: */
-    [class*="col-s-"] {
-      width: 100%;
-    }
-  }
-
-  @media only screen and (max-width: 768px) {
-    /* For tablets: */
-    [class*="col-t-"] {
-      width: 100%;
-    }
-  }
-
-
-@media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 500px) {
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -67,6 +48,25 @@
     .col-t-11 {width: 91.66%;}
     .col-t-12 {width: 100%;}
   }
+
+[class*="col-"] {
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="col-s-"] {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For tablets: */
+    [class*="col-t-"] {
+      width: 100%;
+    }
+  }
+
 .box li {
   font-family: "Roboto", "Oswald";
   padding: 8px;
